@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='RealEstateAnalysisMap',
-    version='0.1.1',
+    version='0.1.2',
     author='Dominic Fawls',
     author_email='dominicf@vt.edu',
     description='Create a map analyzing housing market in Northern Virginia',
