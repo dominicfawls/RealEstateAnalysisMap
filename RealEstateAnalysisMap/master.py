@@ -1,6 +1,5 @@
 from RealEstateAnalysisMap.zip_map_file import create_zip_file_nova
 from RealEstateAnalysisMap.zip_map_file_arlington import create_zip_file_arlington
-from RealEstateAnalysisMap.zip_map_file_arlington import create_zip_file
 from RealEstateAnalysisMap.get_info import get_house_info
 from RealEstateAnalysisMap.visualization import create_map
 from RealEstateAnalysisMap.visualization_arlington import create_map
