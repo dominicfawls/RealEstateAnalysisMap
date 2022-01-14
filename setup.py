@@ -15,6 +15,6 @@ setuptools.setup(
     project_urls = {},
     license='MIT',
     packages=['RealEstateAnalysisMap'],
-    install_requires=['requests'],
+    #install_requires=['requests'],
 )
 #view rawpypackage.py hosted with ❤ by GitHub
