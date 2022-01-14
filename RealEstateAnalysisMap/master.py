@@ -2,7 +2,7 @@ from RealEstateAnalysisMap.zip_map_file import create_zip_file_nova
 from RealEstateAnalysisMap.zip_map_file_arlington import create_zip_file_arlington
 from RealEstateAnalysisMap.get_info import get_house_info
 from RealEstateAnalysisMap.visualization import create_map
-from RealEstateAnalysisMap.visualization_arlington import create_map
+from RealEstateAnalysisMap.visualization_arlington import create_map_arlington
 import json
 
 # This master file contains the contents of the two main files
@@ -181,7 +181,7 @@ def create_arlington_map():
         json.dump(geo_json_dict, json_file)
 
     # Create a choropleth map using create_map function
-    create_map(
+    create_map_arlington(
         mapped_feature = 'Average Cost',
         map_title = 'arlington_map.html',
         map_json_file = 'arlington_zips.json',

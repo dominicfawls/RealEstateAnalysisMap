@@ -2,7 +2,7 @@ import folium
 import branca
 import geopandas as gpd
 
-def create_map(mapped_feature, map_title, map_json_file, num_zip_codes):
+def create_map_arlington(mapped_feature, map_title, map_json_file, num_zip_codes):
 
     map_file = gpd.read_file(map_json_file)
     map_file = map_file[['ZCTA5CE10', 'average_cost', 'average_cost_str',
