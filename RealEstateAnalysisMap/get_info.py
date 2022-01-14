@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from create_url import create_url
+from RealEstateAnalysisMap.create_url import create_url
 
 # Create a dictionary of address:price listings for all houses/condos in zip
 def get_house_info(zip_code):
