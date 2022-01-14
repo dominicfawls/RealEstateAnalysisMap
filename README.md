@@ -8,26 +8,26 @@ This project creates a choropleth map of average house costs for the current mar
 # How to use:
 1. Install the package using pip. Copy and paste the following code into your terminal:
 
-'''python
+```
 pip install git+https://github.com/dominicfawls/RealEstateAnalysisMap
-'''
+```
 
 2. Create a python file in your desired directory.
 
 3. Import the following functions into your file as such:
 
-'''python
+```python
 import RealEstateAnalysisMap
 from RealEstateAnalysisMap.master import create_nova_map
 from RealEstateAnalysisMap.master import create_arlington_map
-'''
+```
 
 Then, just add the functions and run the file!
 
-'''python
+```python
 create_nova_map()
 create_arlington_map()
-'''
+```
 
 4. The maps will be created as HTML files in the directory that the python file is stored in.
 There will be two maps: arlington_map.html and fairfax_arlington_map.html.  
