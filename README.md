@@ -12,9 +12,11 @@ This project creates a choropleth map of average house costs for the current mar
 pip install git+https://github.com/dominicfawls/RealEstateAnalysisMap
 ```
 
-2. Create a python file in your desired directory.
+2. Create a python file in your desired directory. (named anything)
 
-3. Import the following functions into your file as such:
+3. Download the file "va_virginia_zip_codes_geo.min.json" from my repository on GitHub. Save the file in the current directory
+
+3. Import the following functions into your python file as such:
 
 ```python
 import RealEstateAnalysisMap
@@ -29,7 +31,7 @@ create_nova_map()
 create_arlington_map()
 ```
 
-4. The maps will be created as HTML files in the directory that the python file is stored in.
+4. The maps will be created as HTML files in the current directory.
 There will be two maps: arlington_map.html and fairfax_arlington_map.html.  
 The first will only show data for Arlington County, VA, and the latter will show data for all of Northern Virginia (Fairfax Co, Arlington Co, and Alexandria City)
 They can be opened in Chrome or another web browser for easy viewing!
