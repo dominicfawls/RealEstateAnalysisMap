@@ -1,11 +1,11 @@
 import json
 
-def create_zip_file(arlington_zips):
+def create_zip_file_arlington(arlington_zips):
     # Removes all zip codes except for Arlington from master file
     # Load GeoJSON
     with open('va_virginia_zip_codes_geo.min.json', 'r') as zip_map_file:
         map_data = json.load(zip_map_file)
-        
+
     # Sort out only information for zips in list above, add to new_features_list
     new_features_list = []
     delete_zip_index = 0

@@ -1,6 +1,6 @@
 import json
 
-def create_zip_file(nova_zips):
+def create_zip_file_nova(nova_zips):
     # Remove all zip codes from JSON except for Arlington/Fairfax Co./Alexandria
     # Load GeoJSON
     with open('va_virginia_zip_codes_geo.min.json', 'r') as zip_map_file:
