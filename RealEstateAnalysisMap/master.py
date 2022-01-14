@@ -2,7 +2,7 @@ from RealEstateAnalysisMap.zip_map_file import create_zip_file
 from RealEstateAnalysisMap.zip_map_file_arlington import create_zip_file
 from RealEstateAnalysisMap.get_info import get_house_info
 from RealEstateAnalysisMap.visualization import create_map
-from RealEstateAnalysisMap.visulization_arlington import create_map
+from RealEstateAnalysisMap.visualization_arlington import create_map
 import json
 
 # This master file contains the contents of the two main files
