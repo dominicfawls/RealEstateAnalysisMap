@@ -80,7 +80,7 @@ def create_nova_map():
         nova_zips.append(str(zip_code))
 
     # Create JSON file of zip code information from master VA file
-    create_zip_file(nova_zips)
+    create_zip_file_nova(nova_zips)
 
     # Create dictionaries to house relevant information
     nova_dict = {}
@@ -141,7 +141,7 @@ def create_arlington_map():
         ]
 
     # Create JSON file using create_zip_file function
-    create_zip_file(arlington_zips)
+    create_zip_file_arlington(arlington_zips)
 
     # Create dictionaries to house relevant information
     arlington_dict = {}
