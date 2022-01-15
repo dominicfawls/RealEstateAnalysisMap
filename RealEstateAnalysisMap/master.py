@@ -10,6 +10,7 @@ import json
 # but converts the contents into easily useable functions
 # for package use.
 
+# Function to create Northern Virginia Map (from fairfax_arlington_average.py)
 def create_nova_map():
     nova_zips_int = [
         22030,
@@ -81,7 +82,7 @@ def create_nova_map():
 
     # Create JSON file of zip code information from master VA file
     create_zip_file_nova(nova_zips)
-
+    print('Gathering Northern Virginia Map Data')
     # Create dictionaries to house relevant information
     nova_dict = {}
     average_dict = {}
@@ -126,7 +127,9 @@ def create_nova_map():
         map_json_file = 'fairfax_arlington_zips.json',
         num_zip_codes = len(nova_zips_int)
         )
+    print("Map has been created.\n\n")
 
+# Function to create Arlington Map (from arlington_va_average.py)
 def create_arlington_map():
     arlington_zips = [
         '22201',
@@ -151,7 +154,7 @@ def create_arlington_map():
     # Get data from Trulia for each zip code using get_house_info function
     for zip_code in arlington_zips:
         arlington_dict[zip_code] = get_house_info(int(zip_code))
-    print('Retrieved information for ' + str(len(arlington_dict)) + ' zip codes\n')
+    print('Retrieved information for ' + str(len(arlington_dict)) + ' zip codes\n\n')
 
     # Sort collected data from above into created dictionaries
     for zip_code, zip_dict in arlington_dict.items():
@@ -187,3 +190,4 @@ def create_arlington_map():
         map_json_file = 'arlington_zips.json',
         num_zip_codes = len(arlington_zips),
         )
+    print("Map has been created.\n\n")
