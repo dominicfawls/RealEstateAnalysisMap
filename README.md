@@ -33,5 +33,8 @@ create_arlington_map()
 
 4. The maps will be created as HTML files in the current directory.
 There will be two maps: arlington_map.html and fairfax_arlington_map.html.  
-The first will only show data for Arlington County, VA, and the latter will show data for all of Northern Virginia (Fairfax Co, Arlington Co, and Alexandria City)
-They can be opened in Chrome or another web browser for easy viewing!
+The first will only show data for Arlington County, VA, and the latter will show data for all of Northern Virginia (Fairfax Co, Arlington Co, and Alexandria City).\
+They can be opened in Chrome or another web browser for easy viewing!\
+The map will look like the screenshot below, but it is interactive and will have the most up-to-date data!
+
+![Map Screenshot](ScreenShot.png)
